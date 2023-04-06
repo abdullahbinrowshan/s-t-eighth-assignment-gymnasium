@@ -1,0 +1,43 @@
+.main-container{
+    background-color: #e7e7e7;
+    display: grid;
+    grid-template-columns: 4fr 1.3fr;
+    gap: 30px;
+}
+
+.activities-container{
+    margin: min(7%, 70px);
+}
+
+.heading{
+    color: green;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.activities-container h4{
+    margin-bottom: 65px;
+    font-size: 22px;
+}
+
+.activities-container .activity-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    grid-gap: 30px;
+}
+
+.activities-container img {
+    width: 100%;
+    aspect-ratio: 2.2/1;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cart-container {
+    height: 100%;
+    background-color: #fff;
+}

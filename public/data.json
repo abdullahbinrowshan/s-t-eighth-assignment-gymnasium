@@ -2,6 +2,7 @@
     {
       "id": "642e51de1bb6f8532c07dece",
       "img": "./images/elliptical.jpg",
+      "age": 51,
       "time": 30,
       "title": "Elliptical",
       "description": "Elliptical exercise is a low-impact cardio workout that involves using an elliptical machine. It mimics the movement of running, but with less impact on your joints. You can adjust the resistance and incline to make the workout more challenging. Elliptical exercise can help improve cardiovascular fitness, burn calories, and tone the lower body muscles."
@@ -9,6 +10,7 @@
     {
       "id": "642e51de69c6dd57380d547b",
       "img": "./images/treadmill.jpg",
+      "age": 52,
       "time": 30,
       "title": "Treadmill",
       "description": "Treadmill exercise is a cardiovascular workout that involves running, jogging, or walking on a motorized treadmill machine. It can be performed indoors at a gym or at home. You can adjust the speed and incline to suit your fitness level and goals. It is a great way to improve cardiovascular fitness, burn calories, and strengthen leg muscles. Treadmill exercise is a convenient and accessible way to exercise."
@@ -16,6 +18,7 @@
     {
       "id": "642e51de686385e787478671",
       "img": "./images/bench-press.jpg",
+      "age": 46,
       "time": 30,
       "title": "Bench Press",
       "description": "This exercise is performed by lying on a bench and pressing a barbell up and down with your arms. The bench press targets your chest, shoulders, and triceps, and is great for building upper body strength and size. You can vary the grip width on the barbell to target different muscles."
@@ -23,6 +26,7 @@
     {
       "id": "642e51de46cfa6effdb73aaa",
       "img": "./images/barbell-rows.jpg",
+      "age": 34,
       "time": 30,
       "title": "Barbell Rows",
       "description": "To perform a barbell row, stand with your feet shoulder-width apart, bend your knees slightly, and hinge forward at the hips while holding a barbell. Then, pull the barbell up towards your chest while keeping your elbows close to your body. Rows work your back muscles, including your lats, traps, and rhomboids, and can help improve your posture and overall upper body strength."
@@ -30,6 +34,7 @@
     {
       "id": "642e51de7637fd83b79eb7f0",
       "img": "./images/pull-ups--chin-ups.jpg",
+      "age": 53,
       "time": 30,
       "title": "Pull-Ups/Chin-Ups",
       "description": "To perform a pull-up or chin-up, grip a pull-up bar with your palms facing away from you (pull-up) or towards you (chin-up), then pull yourself up until your chin is above the bar. Pull-ups and chin-ups are great for targeting your back and biceps, and can help you build upper body strength and size."
@@ -37,6 +42,7 @@
     {
       "id": "642e51deef574ef788a41b0f",
       "img": "./images/dumbbells.jpg",
+      "age": 38,
       "time": 30,
       "title": "Dumbbell curls",
       "description": "Curls are a classic biceps exercise, and can help you build strength and size in your arms. To perform dumbbell curls, hold a dumbbell in each hand with your palms facing up, then curl the weights up towards your shoulders while keeping your elbows close to your body."
@@ -44,6 +50,7 @@
     {
       "id": "642e51de18b070acb2177dc3",
       "img": "./images/triceps-pushdowns.jpg",
+      "age": 33,
       "time": 30,
       "title": "Triceps Pushdowns",
       "description": "This exercise is performed on a cable machine, and involves pushing the cable down with your arms to target your triceps, the muscles on the back of your upper arms. To perform a triceps pushdown, stand facing the cable machine, grip the cable with an overhand grip, and push the cable down towards the floor while keeping your elbows close to your body."
@@ -51,6 +58,7 @@
     {
       "id": "642e51de4c0b1cfac9f58e24",
       "img": "./images/leg-press.jpg",
+      "age": 51,
       "time": 30,
       "title": "Leg Press",
       "description": "The leg press is a machine exercise that targets your leg muscles, including your quads, hamstrings, and glutes, and can help you build lower body strength and size. To perform a leg press, sit in the machine with your feet on the platform, then push the platform away from you using your legs."
@@ -58,6 +66,7 @@
     {
       "id": "642e51de8d0cd64a88e72b60",
       "img": "./images/romanian-deadlifts.jpg",
+      "age": 45,
       "time": 30,
       "title": "Romanian Deadlifts",
       "description": "Romanian deadlifts are a variation of the deadlift that specifically target your hamstrings and glutes. To perform a Romanian deadlift, stand with your feet hip-width apart, holding a barbell in front of your thighs with an overhand grip. Keeping your back straight and your knees slightly bent, hinge forward at the hips and lower the bar down your legs, feeling a stretch in your hamstrings. Pause briefly at the bottom, then lift the bar back up to the starting position by squeezing your glutes and driving your hips forward. Repeat for the desired number of repetitions."

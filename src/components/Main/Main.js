@@ -15,7 +15,7 @@ const Main = () => {
             .then(data => setActivities(data))
     }, [])
     return (
-        <div className='main-container'>
+        <div className='main-container primary-bg'>
             <div className="activities-container">
                 <h1 className='heading'> <span><FontAwesomeIcon className='rotate' icon={faDumbbell} /></span> GYMNASIUM-CLUB </h1>
                 <h4>Age Select today’s exercise</h4>
@@ -25,7 +25,7 @@ const Main = () => {
                     }
                 </div>
             </div>
-            <div className="cart-container">
+            <div className="cart-container bg-white">
                 <Cart />
             </div>
         </div>

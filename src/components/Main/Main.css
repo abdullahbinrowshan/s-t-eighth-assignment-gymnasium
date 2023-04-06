@@ -1,8 +1,11 @@
 .main-container{
-    background-color: #e7e7e7;
     display: grid;
     grid-template-columns: 4fr 1.3fr;
     gap: 30px;
+}
+
+.primary-bg {
+    background-color: #e7e7e7;
 }
 
 .activities-container{
@@ -32,12 +35,30 @@
 
 .activities-container img {
     width: 100%;
-    aspect-ratio: 2.2/1;
+    aspect-ratio: 2/1;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .cart-container {
     height: 100%;
+    padding: 30px;
+}
+
+.bg-white{
     background-color: #fff;
+}
+
+.bg-green{
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.cart-container img {
+    clip-path: circle(40%);
+    max-width: 40%;
+    margin-left: -15px;
+    aspect-ratio: 8/4;
+    object-fit: cover;
+    overflow: hidden;
 }

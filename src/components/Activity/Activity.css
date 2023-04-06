@@ -1,5 +1,4 @@
 .activity{
-    background-color: white;
     padding: 16px 18px;
     border-radius: 15px;
     position: relative;
@@ -7,6 +6,7 @@
 
 .activity h3 {
     text-transform: capitalize;
+    margin: 10px 0;
 }
 
 .activity b {
@@ -18,19 +18,17 @@
 }
 
 .btn-container {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .btn-container button {
     position: absolute;
     bottom: 0;
-    background-color: mediumseagreen;
-    font-weight: 700;
-    color: white;
+    font-weight: 650;
     outline: none;
     font-size: 16px;
     padding: 10px;
-    width: 88%;
+    width: 86%;
     border: none;
     margin-bottom: 15px;
     border-radius: 8px;

@@ -1,0 +1,70 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person-info h4, p {
+    margin: 8px 0;
+}
+
+.fitness-info {
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 5px 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fitness-info p span {
+    color: gray;
+    font-size: 14px;
+}
+
+.break-container{
+    margin: 35px 0;
+}
+
+.break-btns{
+    padding: 15px 5px;
+    width: 100%;
+    justify-content: space-around;
+    gap: 4px;
+    border-radius: 10px;
+}
+
+.break-btns button {
+    outline: none;
+    border: none;
+    padding: 12px 8px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+
+.details-container {
+    margin-top: 60px;
+}
+
+.details p {
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.details p span {
+    color: gray;
+}
+
+.completed-btn-container{
+    margin-top: 70px;
+}
+
+.complete-btn{
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 8px;
+}

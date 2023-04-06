@@ -1,0 +1,65 @@
+[
+    {
+      "id": "642e51de1bb6f8532c07dece",
+      "img": "https://img.freepik.com/free-photo/young-bodybuilder-running-cardio-workout-looking-gym-window_496169-2718.jpg?w=996&t=st=1680758778~exp=1680759378~hmac=9d46965e3aaa36d292ad5f80dd7ce15b6ddf78dbf11a2ea000d70ff4c6ad15b0",
+      "time": 30,
+      "title": "Elliptical",
+      "description": "Elliptical exercise is a low-impact cardio workout that involves using an elliptical machine. It mimics the movement of running, but with less impact on your joints. You can adjust the resistance and incline to make the workout more challenging. Elliptical exercise can help improve cardiovascular fitness, burn calories, and tone the lower body muscles."
+    },
+    {
+      "id": "642e51de69c6dd57380d547b",
+      "img": "https://img.freepik.com/free-photo/smiling-athletic-man-running-treadmill-while-exercising-gym_637285-8374.jpg?w=996&t=st=1680758611~exp=1680759211~hmac=a64229334fa6eb21919b2e3cb09115da752bef776a613efb167a11c8ac066adb",
+      "time": 30,
+      "title": "Treadmill",
+      "description": "Treadmill exercise is a cardiovascular workout that involves running, jogging, or walking on a motorized treadmill machine. It can be performed indoors at a gym or at home. You can adjust the speed and incline to suit your fitness level and goals. It is a great way to improve cardiovascular fitness, burn calories, and strengthen leg muscles. Treadmill exercise is a convenient and accessible way to exercise."
+    },
+    {
+      "id": "642e51de686385e787478671",
+      "img": "https://img.freepik.com/free-photo/focused-man-doing-workout-weight-bench_329181-14155.jpg?w=996&t=st=1680758413~exp=1680759013~hmac=dd15aa4cb93845991ada249652eb7ef655c47c2d48ee38b342838d897c7a74b9",
+      "time": 30,
+      "title": "Bench Press",
+      "description": "This exercise is performed by lying on a bench and pressing a barbell up and down with your arms. The bench press targets your chest, shoulders, and triceps, and is great for building upper body strength and size. You can vary the grip width on the barbell to target different muscles."
+    },
+    {
+      "id": "642e51de46cfa6effdb73aaa",
+      "img": "https://img.freepik.com/free-photo/black-white-photo-athletic-man-adjusting-barbell-weight-training-health-club_637285-2457.jpg?w=996&t=st=1680758322~exp=1680758922~hmac=dd1a5fd9356aa95e30ad968c5597dc7cd3b14c243002b8495cf3ca2e7721a870",
+      "time": 30,
+      "title": "Barbell rows",
+      "description": "To perform a barbell row, stand with your feet shoulder-width apart, bend your knees slightly, and hinge forward at the hips while holding a barbell. Then, pull the barbell up towards your chest while keeping your elbows close to your body. Rows work your back muscles, including your lats, traps, and rhomboids, and can help improve your posture and overall upper body strength."
+    },
+    {
+      "id": "642e51de7637fd83b79eb7f0",
+      "img": "https://img.freepik.com/free-photo/shirtless-man-pulling-up-horizontal-bar-gym_613910-16667.jpg?w=996&t=st=1680758095~exp=1680758695~hmac=32a4a47a892be43a9296f85dc1e61a4192ee9b9a7a8c000c923dfbc61b659fa0",
+      "time": 30,
+      "title": "Pull-ups/chin-ups",
+      "description": "To perform a pull-up or chin-up, grip a pull-up bar with your palms facing away from you (pull-up) or towards you (chin-up), then pull yourself up until your chin is above the bar. Pull-ups and chin-ups are great for targeting your back and biceps, and can help you build upper body strength and size."
+    },
+    {
+      "id": "642e51deef574ef788a41b0f",
+      "img": "https://img.freepik.com/free-photo/weight-training-equipment-modern-gym-indoors-close-up-image-dumbells-stand-gym-equipment_613910-4216.jpg?w=996&t=st=1680757979~exp=1680758579~hmac=ab15c7ba16ff09de7bbc4b281627688112007fc5960ec223f2046fc01f83a7db",
+      "time": 30,
+      "title": "Dumbbell curls",
+      "description": "Curls are a classic biceps exercise, and can help you build strength and size in your arms. To perform dumbbell curls, hold a dumbbell in each hand with your palms facing up, then curl the weights up towards your shoulders while keeping your elbows close to your body."
+    },
+    {
+      "id": "642e51de18b070acb2177dc3",
+      "img": "https://img.freepik.com/free-photo/attractive-male-athlete-performing-push-ups-medicine-ball-exercising-gym_639032-2642.jpg?w=996&t=st=1680757837~exp=1680758437~hmac=71528ea8437f7958e5cc2a7ad75a31c79e31612c42c4745fc022cdeace2e8e6a",
+      "time": 30,
+      "title": "Triceps Pushdowns",
+      "description": "This exercise is performed on a cable machine, and involves pushing the cable down with your arms to target your triceps, the muscles on the back of your upper arms. To perform a triceps pushdown, stand facing the cable machine, grip the cable with an overhand grip, and push the cable down towards the floor while keeping your elbows close to your body."
+    },
+    {
+      "id": "642e51de4c0b1cfac9f58e24",
+      "img": "https://img.freepik.com/free-photo/man-working-out-gym_23-2148197786.jpg?w=996&t=st=1680757515~exp=1680758115~hmac=020063c25fd5617b14139f9678fbabed880d41cc1f7714432ee654f2153da5e9",
+      "time": 30,
+      "title": "Leg Press",
+      "description": "The leg press is a machine exercise that targets your leg muscles, including your quads, hamstrings, and glutes, and can help you build lower body strength and size. To perform a leg press, sit in the machine with your feet on the platform, then push the platform away from you using your legs."
+    },
+    {
+      "id": "642e51de8d0cd64a88e72b60",
+      "img": "https://img.freepik.com/free-photo/muscular-build-man-making-effort-while-weightlifting-during-cross-training-gym_637285-2488.jpg?w=996&t=st=1680757414~exp=1680758014~hmac=8e309132abb13502ecf58c6c2763696c4628b3114a0ce39635f090eb1db46389",
+      "time": 30,
+      "title": "Romanian Deadlifts",
+      "description": "Romanian deadlifts are a variation of the deadlift that specifically target your hamstrings and glutes. To perform a Romanian deadlift, stand with your feet hip-width apart, holding a barbell in front of your thighs with an overhand grip. Keeping your back straight and your knees slightly bent, hinge forward at the hips and lower the bar down your legs, feeling a stretch in your hamstrings. Pause briefly at the bottom, then lift the bar back up to the starting position by squeezing your glutes and driving your hips forward. Repeat for the desired number of repetitions."
+    }
+  ]

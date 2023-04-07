@@ -46,7 +46,7 @@
 .cart-container {
     grid-column: 2;
     height: 100%;
-    padding: 30px;
+    padding: 0 30px;
 }
 
 .bg-white {
@@ -89,6 +89,7 @@
         text-align: center;
         margin-top: 30px;
     }
+
     .details p{ 
         width: 100%;
     }
@@ -109,5 +110,4 @@
     .break-container, .completed-btn-container, .details-container{
         margin: 25px 0 !important;
     }
-
 }

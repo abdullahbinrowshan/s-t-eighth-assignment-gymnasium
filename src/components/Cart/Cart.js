@@ -3,7 +3,7 @@ import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons';
 
-const Cart = (props) => {
+const Cart = ({exerciseTime}) => {
     return (
         <div>
             <div className="mobile-flex">
@@ -46,7 +46,7 @@ const Cart = (props) => {
             <div className="details-container">
                 <h4>Exercise Details</h4>
                 <div className="details">
-                    <p className='flex primary-bg'><b>Exercise time</b> <span>00 s</span></p>
+                    <p className='flex primary-bg'><b>Exercise time</b> <span>{exerciseTime} s</span></p>
                     <p className='flex primary-bg'><b>Break time</b> <span>20 s</span></p>
                 </div>
             </div>

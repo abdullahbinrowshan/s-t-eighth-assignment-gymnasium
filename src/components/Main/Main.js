@@ -16,17 +16,17 @@ const Main = () => {
     }, [])
     return (
         <div className='main-container primary-bg'>
+            <div className="cart-container bg-white">
+                <Cart />
+            </div>
             <div className="activities-container">
                 <h1 className='heading'> <span><FontAwesomeIcon className='rotate' icon={faDumbbell} /></span> GYMNASIUM-CLUB </h1>
-                <h4>Age Select today’s exercise</h4>
+                <h4>Select today’s exercise</h4>
                 <div className='activity-container'>
                     {
                         activities.map(activity => <Activity activity={activity} key={activity.id} />)
                     }
                 </div>
-            </div>
-            <div className="cart-container bg-white">
-                <Cart />
             </div>
         </div>
     );

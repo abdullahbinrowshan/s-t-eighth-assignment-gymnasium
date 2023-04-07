@@ -7,6 +7,9 @@ function App() {
     <div>
       <Main />
       <Accordion />
+      <footer>
+        <p style={{textAlign: 'center'}} >Gymnasium © {new Date().getFullYear()} </p>
+      </footer>
     </div>
   );
 }

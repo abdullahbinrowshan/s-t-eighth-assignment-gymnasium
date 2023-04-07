@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = ({exerciseTime}) => {
+
+    const [exerciseBreakTime, setExerciseBreakTime] = useState(0);
+
+    const breakTime = time => {
+        setExerciseBreakTime(time)
+    }
+
     return (
         <div>
             <div className="mobile-flex">
@@ -37,17 +44,17 @@ const Cart = ({exerciseTime}) => {
             <div className="break-container">
                 <h4>Add A Break</h4>
                 <div className="break-btns flex primary-bg">
-                    <button className="bg-white">10s</button>
-                    <button className="bg-green">20s</button>
-                    <button className="bg-white">30s</button>
-                    <button className="bg-white">40s</button>
+                    <button onClick={() => breakTime(10)} className="bg-white">10s</button>
+                    <button onClick={() => breakTime(20)} className="bg-green">20s</button>
+                    <button onClick={() => breakTime(30)} className="bg-white">30s</button>
+                    <button onClick={() => breakTime(40)} className="bg-white">40s</button>
                 </div>
             </div>
             <div className="details-container">
                 <h4>Exercise Details</h4>
                 <div className="details">
                     <p className='flex primary-bg'><b>Exercise time</b> <span>{exerciseTime} s</span></p>
-                    <p className='flex primary-bg'><b>Break time</b> <span>20 s</span></p>
+                    <p className='flex primary-bg'><b>Break time</b> <span>{exerciseBreakTime} s</span></p>
                 </div>
             </div>
             <div className="completed-btn-container">

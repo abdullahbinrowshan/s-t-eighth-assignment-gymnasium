@@ -8,7 +8,7 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 
 const Main = () => {
     const [activities, setActivities] = useState([])
-
+    
     const [exerciseTime, setExerciseTime] = useState(0);
 
     const addToExerciseList = time => {

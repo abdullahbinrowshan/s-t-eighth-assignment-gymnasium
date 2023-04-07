@@ -3,12 +3,21 @@ import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons';
 
+
+let clickedBtn = 0;
+
 const Cart = ({exerciseTime}) => {
 
     const [exerciseBreakTime, setExerciseBreakTime] = useState(0);
 
     const breakTime = time => {
         setExerciseBreakTime(time)
+        
+        if (clickedBtn > 0) {
+            document.querySelector(`.sec${clickedBtn}`).classList.remove('bg-green');
+        }
+        clickedBtn = time;
+        document.querySelector(`.sec${time}`).classList.add('bg-green')
     }
 
     return (
@@ -44,10 +53,10 @@ const Cart = ({exerciseTime}) => {
             <div className="break-container">
                 <h4>Add A Break</h4>
                 <div className="break-btns flex primary-bg">
-                    <button onClick={() => breakTime(10)} className="bg-white">10s</button>
-                    <button onClick={() => breakTime(20)} className="bg-green">20s</button>
-                    <button onClick={() => breakTime(30)} className="bg-white">30s</button>
-                    <button onClick={() => breakTime(40)} className="bg-white">40s</button>
+                    <button onClick={() => breakTime(10)} className="bg-white sec10">10s</button>
+                    <button onClick={() => breakTime(20)} className="bg-white sec20">20s</button>
+                    <button onClick={() => breakTime(30)} className="bg-white sec30">30s</button>
+                    <button onClick={() => breakTime(40)} className="bg-white sec40">40s</button>
                 </div>
             </div>
             <div className="details-container">

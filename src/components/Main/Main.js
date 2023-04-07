@@ -8,17 +8,27 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 
 const Main = () => {
     const [activities, setActivities] = useState([])
-    
+
     const [exerciseTime, setExerciseTime] = useState(0);
 
+
+    window.addEventListener('load', () => {
+        const getLocalStorage = localStorage.getItem('gymTime');
+
+        if (getLocalStorage) {
+            setExerciseTime(getLocalStorage)
+        }
+    })
+
     const addToExerciseList = time => {
-        setExerciseTime(exerciseTime + time);
+        setExerciseTime(Number(exerciseTime) + Number(time));
+        localStorage.setItem("gymTime", Number(exerciseTime) + Number(time))
     }
-    
+
     useEffect(() => {
         fetch('data.json')
-        .then(res => res.json())
-        .then(data => setActivities(data))
+            .then(res => res.json())
+            .then(data => setActivities(data))
     }, [])
     return (
         <div className='main-container primary-bg'>

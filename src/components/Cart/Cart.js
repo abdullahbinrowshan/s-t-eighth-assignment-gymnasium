@@ -5,25 +5,31 @@ import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-let clickedBtn = 0;
+let clickedBreakBtn = 0;
 
 const Cart = ({ exerciseTime }) => {
 
     const [exerciseBreakTime, setExerciseBreakTime] = useState(0);
 
     window.addEventListener('load', () => {
-        setExerciseBreakTime(30)
-        clickedBtn = 30;
-        document.querySelector(`.sec${clickedBtn}`).classList.add('bg-green')
+        const getLocalStorage = localStorage.getItem('breakTime');
+
+        if (getLocalStorage) {
+            setExerciseBreakTime(getLocalStorage)
+            clickedBreakBtn = getLocalStorage;
+            document.querySelector(`.sec${clickedBreakBtn}`).classList.add('bg-green')
+        }
     })
 
     const breakTime = time => {
         setExerciseBreakTime(time)
-        
-        if (clickedBtn > 0) {
-            document.querySelector(`.sec${clickedBtn}`).classList.remove('bg-green');
+
+        localStorage.setItem("breakTime", time)
+
+        if (clickedBreakBtn > 0) {
+            document.querySelector(`.sec${clickedBreakBtn}`).classList.remove('bg-green');
         }
-        clickedBtn = time;
+        clickedBreakBtn = time;
         document.querySelector(`.sec${time}`).classList.add('bg-green')
     }
 

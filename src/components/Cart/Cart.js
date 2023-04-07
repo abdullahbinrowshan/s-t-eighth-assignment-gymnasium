@@ -2,13 +2,20 @@ import React, { useState } from 'react';
 import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 let clickedBtn = 0;
 
-const Cart = ({exerciseTime}) => {
+const Cart = ({ exerciseTime }) => {
 
     const [exerciseBreakTime, setExerciseBreakTime] = useState(0);
+
+    window.addEventListener('load', () => {
+        setExerciseBreakTime(30)
+        clickedBtn = 30;
+        document.querySelector(`.sec${clickedBtn}`).classList.add('bg-green')
+    })
 
     const breakTime = time => {
         setExerciseBreakTime(time)
@@ -18,6 +25,19 @@ const Cart = ({exerciseTime}) => {
         }
         clickedBtn = time;
         document.querySelector(`.sec${time}`).classList.add('bg-green')
+    }
+
+    const activityCompleted = () => {
+        toast.success('Activity Completed!', {
+            position: "top-center",
+            autoClose: 4000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+        });
     }
 
     return (
@@ -67,7 +87,19 @@ const Cart = ({exerciseTime}) => {
                 </div>
             </div>
             <div className="completed-btn-container">
-                <button className="complete-btn bg-green ">Activity Component</button>
+                <button onClick={activityCompleted} className="complete-btn bg-green">Activity Completed</button>
+                <ToastContainer
+                    position="top-center"
+                    autoClose={3000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                    theme="colored"
+                />
             </div>
         </div>
     );
